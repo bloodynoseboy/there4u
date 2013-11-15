@@ -21,6 +21,8 @@
 		418A6EA51835A8420082485C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418A6E871835A8420082485C /* UIKit.framework */; };
 		418A6EAD1835A8420082485C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 418A6EAB1835A8420082485C /* InfoPlist.strings */; };
 		418A6EAF1835A8420082485C /* there4uTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 418A6EAE1835A8420082485C /* there4uTests.m */; };
+		418A6EBA1835A8BB0082485C /* patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 418A6EB91835A8BB0082485C /* patient.m */; };
+		41F903C51835CB760076A615 /* tfu2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41F903C41835CB760076A615 /* tfu2ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		418A6EAA1835A8420082485C /* there4uTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "there4uTests-Info.plist"; sourceTree = "<group>"; };
 		418A6EAC1835A8420082485C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		418A6EAE1835A8420082485C /* there4uTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = there4uTests.m; sourceTree = "<group>"; };
+		418A6EB81835A8BB0082485C /* patient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = patient.h; sourceTree = "<group>"; };
+		418A6EB91835A8BB0082485C /* patient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = patient.m; sourceTree = "<group>"; };
+		41F903C31835CB760076A615 /* tfu2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tfu2ViewController.h; sourceTree = "<group>"; };
+		41F903C41835CB760076A615 /* tfu2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tfu2ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				418A6E991835A8420082485C /* tfuViewController.m */,
 				418A6E9B1835A8420082485C /* Images.xcassets */,
 				418A6E8A1835A8420082485C /* Supporting Files */,
+				418A6EB81835A8BB0082485C /* patient.h */,
+				418A6EB91835A8BB0082485C /* patient.m */,
+				41F903C31835CB760076A615 /* tfu2ViewController.h */,
+				41F903C41835CB760076A615 /* tfu2ViewController.m */,
 			);
 			path = there4u;
 			sourceTree = "<group>";
@@ -250,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41F903C51835CB760076A615 /* tfu2ViewController.m in Sources */,
 				418A6E9A1835A8420082485C /* tfuViewController.m in Sources */,
+				418A6EBA1835A8BB0082485C /* patient.m in Sources */,
 				418A6E941835A8420082485C /* tfuAppDelegate.m in Sources */,
 				418A6E901835A8420082485C /* main.m in Sources */,
 			);
@@ -461,6 +473,7 @@
 				418A6EB41835A8420082485C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		418A6EB51835A8420082485C /* Build configuration list for PBXNativeTarget "there4uTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +482,7 @@
 				418A6EB71835A8420082485C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
